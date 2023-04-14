@@ -1,38 +1,26 @@
 .App {
   text-align: center;
+  background-color: rgb(166, 168, 216);
+  padding:50px;
 }
+.student-container{
+  background-color: aliceblue;
+  padding:40px;
+  border-radius: 30%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.score-display{
+  padding: 20px;
+  margin:40px;
+  background-color: rgb(166, 168, 216);
+  display:flex;
+  justify-content: space-around;
+  border-radius:40%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.s-name{
+  color:rgb(143, 128, 207);
+  text-shadow: 1px 1px 1px rgb(166, 168, 216);
+  text-decoration: underline;
+  /* border: 2px solid black; */
 }
